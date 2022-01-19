@@ -1,0 +1,388 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: Top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Top.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Top"
+Output Format                      : NGC
+Target Device                      : xc3s50-5-pq208
+
+---- Source Options
+Top Module Name                    : Top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Logical-Circute/Final-Project-VHDL/secondTry/FullAdder.vhd" in Library work.
+Architecture behavioral of Entity fulladder is up to date.
+Compiling vhdl file "D:/Logical-Circute/Final-Project-VHDL/secondTry/DFlipFlop.vhd" in Library work.
+Architecture behavioral of Entity dflipflop is up to date.
+Compiling vhdl file "D:/Logical-Circute/Final-Project-VHDL/secondTry/Counter.vhd" in Library work.
+Architecture behavioral of Entity counter is up to date.
+Compiling vhdl file "D:/Logical-Circute/Final-Project-VHDL/secondTry/Demux17.vhd" in Library work.
+Architecture behavioral of Entity demux17 is up to date.
+Compiling vhdl file "D:/Logical-Circute/Final-Project-VHDL/secondTry/StoringBitsIn17FlipFlops.vhd" in Library work.
+Architecture behavioral of Entity storingbitsin17flipflops is up to date.
+Compiling vhdl file "D:/Logical-Circute/Final-Project-VHDL/secondTry/FullAdder8bit.vhd" in Library work.
+Architecture behavioral of Entity fulladder8bit is up to date.
+Compiling vhdl file "D:/Logical-Circute/Final-Project-VHDL/secondTry/Top.vhd" in Library work.
+Entity <top> compiled.
+Entity <top> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Top> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Counter> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <Demux17> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <StoringBitsIn17FlipFlops> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <FullAdder8bit> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DFlipFlop> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <FullAdder> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Top> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "D:/Logical-Circute/Final-Project-VHDL/secondTry/Top.vhd" line 48: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <tmp>
+Entity <Top> analyzed. Unit <Top> generated.
+
+Analyzing Entity <Counter> in library <work> (Architecture <Behavioral>).
+Entity <Counter> analyzed. Unit <Counter> generated.
+
+Analyzing Entity <Demux17> in library <work> (Architecture <Behavioral>).
+INFO:Xst:2679 - Register <O<0>> in unit <Demux17> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <O<2>> in unit <Demux17> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <O<3>> in unit <Demux17> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <O<4>> in unit <Demux17> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <O<5>> in unit <Demux17> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <O<6>> in unit <Demux17> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <O<7>> in unit <Demux17> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <O<8>> in unit <Demux17> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <O<9>> in unit <Demux17> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <O<10>> in unit <Demux17> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <O<11>> in unit <Demux17> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <O<12>> in unit <Demux17> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <O<13>> in unit <Demux17> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <O<14>> in unit <Demux17> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <O<15>> in unit <Demux17> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <O<16>> in unit <Demux17> has a constant value of 0 during circuit operation. The register is replaced by logic.
+Entity <Demux17> analyzed. Unit <Demux17> generated.
+
+Analyzing Entity <StoringBitsIn17FlipFlops> in library <work> (Architecture <Behavioral>).
+Entity <StoringBitsIn17FlipFlops> analyzed. Unit <StoringBitsIn17FlipFlops> generated.
+
+Analyzing Entity <DFlipFlop> in library <work> (Architecture <Behavioral>).
+Entity <DFlipFlop> analyzed. Unit <DFlipFlop> generated.
+
+Analyzing Entity <FullAdder8bit> in library <work> (Architecture <Behavioral>).
+Entity <FullAdder8bit> analyzed. Unit <FullAdder8bit> generated.
+
+Analyzing Entity <FullAdder> in library <work> (Architecture <Behavioral>).
+Entity <FullAdder> analyzed. Unit <FullAdder> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Counter>.
+    Related source file is "D:/Logical-Circute/Final-Project-VHDL/secondTry/Counter.vhd".
+    Found 5-bit up counter for signal <COUNT>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <Counter> synthesized.
+
+
+Synthesizing Unit <Demux17>.
+    Related source file is "D:/Logical-Circute/Final-Project-VHDL/secondTry/Demux17.vhd".
+WARNING:Xst:647 - Input <I> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <O<1>>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <Demux17> synthesized.
+
+
+Synthesizing Unit <DFlipFlop>.
+    Related source file is "D:/Logical-Circute/Final-Project-VHDL/secondTry/DFlipFlop.vhd".
+    Found 1-bit register for signal <Q>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <DFlipFlop> synthesized.
+
+
+Synthesizing Unit <FullAdder>.
+    Related source file is "D:/Logical-Circute/Final-Project-VHDL/secondTry/FullAdder.vhd".
+    Found 1-bit xor3 for signal <O>.
+    Summary:
+	inferred   1 Xor(s).
+Unit <FullAdder> synthesized.
+
+
+Synthesizing Unit <StoringBitsIn17FlipFlops>.
+    Related source file is "D:/Logical-Circute/Final-Project-VHDL/secondTry/StoringBitsIn17FlipFlops.vhd".
+Unit <StoringBitsIn17FlipFlops> synthesized.
+
+
+Synthesizing Unit <FullAdder8bit>.
+    Related source file is "D:/Logical-Circute/Final-Project-VHDL/secondTry/FullAdder8bit.vhd".
+Unit <FullAdder8bit> synthesized.
+
+
+Synthesizing Unit <Top>.
+    Related source file is "D:/Logical-Circute/Final-Project-VHDL/secondTry/Top.vhd".
+WARNING:Xst:646 - Signal <second_tmp<16:8>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <carry_out> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <carry_in> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <Top> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 5-bit up counter                                      : 1
+# Registers                                            : 18
+ 1-bit register                                        : 18
+# Xors                                                 : 8
+ 1-bit xor3                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1710 - FF/Latch <Q> (without init value) has a constant value of 0 in block <D1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Q> (without init value) has a constant value of 0 in block <D3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Q> (without init value) has a constant value of 0 in block <D4>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Q> (without init value) has a constant value of 0 in block <D5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Q> (without init value) has a constant value of 0 in block <D6>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Q> (without init value) has a constant value of 0 in block <D7>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Q> (without init value) has a constant value of 0 in block <D8>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Q> (without init value) has a constant value of 0 in block <D9>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Q> (without init value) has a constant value of 0 in block <D10>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Q> (without init value) has a constant value of 0 in block <D11>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Q> (without init value) has a constant value of 0 in block <D12>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Q> (without init value) has a constant value of 0 in block <D13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Q> (without init value) has a constant value of 0 in block <D14>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Q> (without init value) has a constant value of 0 in block <D15>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Q> (without init value) has a constant value of 0 in block <D16>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Q> (without init value) has a constant value of 0 in block <D17>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 5-bit up counter                                      : 1
+# Registers                                            : 18
+ Flip-Flops                                            : 18
+# Xors                                                 : 8
+ 1-bit xor3                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+ERROR:Xst:528 - Multi-source in Unit <Top> on signal <inputBits<16>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Signal <demux/O<16>> in Unit <Demux17> is assigned to GND
+   Output signal of FDE instance <ff17/D17/Q>
+
+ERROR:Xst:528 - Multi-source in Unit <Top> on signal <inputBits<15>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Signal <demux/O<16>> in Unit <Demux17> is assigned to GND
+   Output signal of FDE instance <ff17/D16/Q>
+
+ERROR:Xst:528 - Multi-source in Unit <Top> on signal <inputBits<14>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Signal <demux/O<16>> in Unit <Demux17> is assigned to GND
+   Output signal of FDE instance <ff17/D15/Q>
+
+ERROR:Xst:528 - Multi-source in Unit <Top> on signal <inputBits<13>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Signal <demux/O<16>> in Unit <Demux17> is assigned to GND
+   Output signal of FDE instance <ff17/D14/Q>
+
+ERROR:Xst:528 - Multi-source in Unit <Top> on signal <inputBits<12>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Signal <demux/O<16>> in Unit <Demux17> is assigned to GND
+   Output signal of FDE instance <ff17/D13/Q>
+
+ERROR:Xst:528 - Multi-source in Unit <Top> on signal <inputBits<11>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Signal <demux/O<16>> in Unit <Demux17> is assigned to GND
+   Output signal of FDE instance <ff17/D12/Q>
+
+ERROR:Xst:528 - Multi-source in Unit <Top> on signal <inputBits<10>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Signal <demux/O<16>> in Unit <Demux17> is assigned to GND
+   Output signal of FDE instance <ff17/D11/Q>
+
+ERROR:Xst:528 - Multi-source in Unit <Top> on signal <inputBits<9>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Signal <demux/O<16>> in Unit <Demux17> is assigned to GND
+   Output signal of FDE instance <ff17/D10/Q>
+
+ERROR:Xst:528 - Multi-source in Unit <Top> on signal <inputBits<8>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Signal <demux/O<16>> in Unit <Demux17> is assigned to GND
+   Output signal of FDE instance <ff17/D9/Q>
+
+ERROR:Xst:528 - Multi-source in Unit <Top> on signal <inputBits<7>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Signal <demux/O<16>> in Unit <Demux17> is assigned to GND
+   Output signal of FDE instance <ff17/D8/Q>
+
+ERROR:Xst:528 - Multi-source in Unit <Top> on signal <inputBits<6>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Signal <demux/O<16>> in Unit <Demux17> is assigned to GND
+   Output signal of FDE instance <ff17/D7/Q>
+
+ERROR:Xst:528 - Multi-source in Unit <Top> on signal <inputBits<5>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Signal <demux/O<16>> in Unit <Demux17> is assigned to GND
+   Output signal of FDE instance <ff17/D6/Q>
+
+ERROR:Xst:528 - Multi-source in Unit <Top> on signal <inputBits<4>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Signal <demux/O<16>> in Unit <Demux17> is assigned to GND
+   Output signal of FDE instance <ff17/D5/Q>
+
+ERROR:Xst:528 - Multi-source in Unit <Top> on signal <inputBits<3>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Signal <demux/O<16>> in Unit <Demux17> is assigned to GND
+   Output signal of FDE instance <ff17/D4/Q>
+
+ERROR:Xst:528 - Multi-source in Unit <Top> on signal <inputBits<2>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Signal <demux/O<16>> in Unit <Demux17> is assigned to GND
+   Output signal of FDE instance <ff17/D3/Q>
+
+ERROR:Xst:528 - Multi-source in Unit <Top> on signal <inputBits<1>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FDR instance <demux/O_1>
+   Output signal of FDE instance <ff17/D2/Q>
+
+ERROR:Xst:528 - Multi-source in Unit <Top> on signal <inputBits<0>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Signal <demux/O<16>> in Unit <Demux17> is assigned to GND
+   Output signal of FDE instance <ff17/D1/Q>
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.90 secs
+ 
+--> 
+
+Total memory usage is 4500948 kilobytes
+
+Number of errors   :   17 (   0 filtered)
+Number of warnings :   21 (   0 filtered)
+Number of infos    :   16 (   0 filtered)
+
