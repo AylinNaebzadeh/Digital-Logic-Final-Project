@@ -1,0 +1,14 @@
+AR counter behavioral D:/Logical-Circute/Final-Project-VHDL/secondTry/Counter.vhd sub00/vhpl03 1642618473
+EN demux17 NULL D:/Logical-Circute/Final-Project-VHDL/secondTry/Demux17.vhd sub00/vhpl04 1642618474
+EN dflipflop NULL D:/Logical-Circute/Final-Project-VHDL/secondTry/DFlipFlop.vhd sub00/vhpl00 1642618470
+AR demux17 behavioral D:/Logical-Circute/Final-Project-VHDL/secondTry/Demux17.vhd sub00/vhpl05 1642618475
+AR storingbitsin17flipflops behavioral D:/Logical-Circute/Final-Project-VHDL/secondTry/StoringBitsIn17FlipFlops.vhd sub00/vhpl07 1642618477
+EN storingbitsin17flipflops NULL D:/Logical-Circute/Final-Project-VHDL/secondTry/StoringBitsIn17FlipFlops.vhd sub00/vhpl06 1642618476
+EN fulladder8bit NULL D:/Logical-Circute/Final-Project-VHDL/secondTry/FullAdder8bit.vhd sub00/vhpl12 1642618478
+EN fulladder NULL D:/Logical-Circute/Final-Project-VHDL/secondTry/FullAdder.vhd sub00/vhpl10 1642618468
+EN top NULL D:/Logical-Circute/Final-Project-VHDL/secondTry/Top.vhd sub00/vhpl08 1642618480
+AR dflipflop behavioral D:/Logical-Circute/Final-Project-VHDL/secondTry/DFlipFlop.vhd sub00/vhpl01 1642618471
+EN counter NULL D:/Logical-Circute/Final-Project-VHDL/secondTry/Counter.vhd sub00/vhpl02 1642618472
+AR fulladder8bit behavioral D:/Logical-Circute/Final-Project-VHDL/secondTry/FullAdder8bit.vhd sub00/vhpl13 1642618479
+AR top behavioral D:/Logical-Circute/Final-Project-VHDL/secondTry/Top.vhd sub00/vhpl09 1642618481
+AR fulladder behavioral D:/Logical-Circute/Final-Project-VHDL/secondTry/FullAdder.vhd sub00/vhpl11 1642618469

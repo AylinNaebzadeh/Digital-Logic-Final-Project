@@ -1,0 +1,7 @@
+vhdl work "FullAdder.vhd"
+vhdl work "DFlipFlop.vhd"
+vhdl work "StoringBitsIn17FlipFlops.vhd"
+vhdl work "FullAdder8bit.vhd"
+vhdl work "Demux17.vhd"
+vhdl work "Counter.vhd"
+vhdl work "Top.vhd"
