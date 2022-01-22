@@ -1,6 +1,4 @@
---SOURCE
---https://www.youtube.com/watch?v=7tKW00VNOBU&ab_channel=..andthenBAM%21
---https://allaboutfpga.com/vhdl-code-for-full-adder/
+
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
