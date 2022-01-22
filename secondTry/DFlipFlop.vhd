@@ -1,8 +1,4 @@
---SOURCE
---https://www.fpga4student.com/2017/02/vhdl-code-for-d-flip-flop.html
--- vhdl code for rising edge d flip flop
---https://electronics.stackexchange.com/questions/323093/what-is-the-difference-between-enable-and-clock-in-flip-flops
---http://quitoart.blogspot.com/2017/10/vhdl-d-flip-flop-with-enable.html
+
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 

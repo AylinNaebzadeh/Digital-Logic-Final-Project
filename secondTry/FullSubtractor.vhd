@@ -1,5 +1,4 @@
---SOURCE
---https://technobyte.org/vhdl-code-full-subtractor-half-subtractor-dataflow/
+
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 

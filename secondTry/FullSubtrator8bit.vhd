@@ -1,6 +1,4 @@
---SOURCE
---https://www.electronicshub.org/binary-adder-and-subtractor/#Binary_Subtraction_Circuits
--- I'm going to implement it using 8 full adders hence I won't use full subtractor.
+
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 

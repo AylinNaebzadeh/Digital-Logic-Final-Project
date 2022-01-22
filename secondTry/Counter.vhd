@@ -4,11 +4,6 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
--- SOURCE
---https://technobyte.org/vhdl-code-synchronous-upcounter-behavioral/
--- https://stackoverflow.com/questions/30666389/can-not-have-such-operands-in-this-context-error-vhdl-code
--- What ais a register? 
--- https://www.javatpoint.com/registers-in-digital-electronics#:~:text=A%20Register%20is%20a%20collection,more%20than%20one%20flip%20flops.
 entity Counter is
     Port ( CLK : in  STD_LOGIC;
            RST : in  STD_LOGIC;
