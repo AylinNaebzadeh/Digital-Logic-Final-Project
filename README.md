@@ -17,7 +17,7 @@ Do we need it? Actually. no:). I have been told that onle by implementing the fu
 In the last step, by using **component instantiation**, in __Top.vhd__, I mapped the inputs and outputs to different components. Actually this file works just like the ```main``` function which we have seen in different programming languages. I have called all my 4 components in this file.
 
 ## Finally
-Well, I have learned lots of things by doing this project, and I really enjoyed it. Suffice to say I could not finish this project without my TA' help. He helped my alot, and I am really grateful for his help and advice. I have also asked two questions in StackOverflow, and used many links from youtube, etc. 
+Well, I have learned lots of things by doing this project, and faced with several errors, but I really enjoyed it❤. Suffice to say I could not finish this project without my TAs' help. He helped my alot, and I am really grateful for his help and advice. I have also asked two questions in StackOverflow, and used many links from youtube, etc. 
 Thanks!!!
 ## Sources
 ✔https://technobyte.org/vhdl-code-synchronous-upcounter-behavioral/
