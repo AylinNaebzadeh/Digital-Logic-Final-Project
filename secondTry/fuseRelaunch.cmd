@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -o "D:/Logical-Circute/Final-Project-VHDL/secondTry/Counter_isim_beh.exe" -prj "D:/Logical-Circute/Final-Project-VHDL/secondTry/Counter_beh.prj" "work.Counter" 
